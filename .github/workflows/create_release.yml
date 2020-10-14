@@ -18,6 +18,6 @@ jobs:
         with:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
-          body_path: 'https://github.com/mcfed/tils/blob/master/CHANGELOGS.md'
+          body_path: CHANGELOGS.md
           draft: false
           prerelease: false
