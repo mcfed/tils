@@ -1,6 +1,6 @@
 {
   "name": "@mcfed/tils",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "@mcfed for tils",
   "module": "dist/index.js",
   "main": "dist/index.js",
