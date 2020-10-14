@@ -1,16 +1,16 @@
-name: Create Release
+name: create-release
 on:
   push:
     tags:
       - '*' # Watch the tag version change
 jobs:
   create-release:
-    name: Create Release
+    name: create-release
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Create Release
+      - name: create-release
         id: create_release
         uses: actions/create-release@v1
         env:
