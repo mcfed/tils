@@ -1,0 +1,51 @@
+{
+  "name": "@mcfed/tils",
+  "version": "0.0.1",
+  "description": "@mcfed for tils",
+  "module": "dist/index.js",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcfed/utils.git"
+  },
+  "scripts": {
+    "test": "jest --detectOpenHandles",
+    "build": "tsc -d"
+  },
+  "files": [
+    "dist/",
+    "modules",
+    "package.json"
+  ],
+  "keywords": [
+    "@mcfed",
+    "tils",
+    "developer"
+  ],
+  "author": "jaxchow",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/config-conventional": "^8.3.4",
+    "@types/fetch-mock": "^7.3.2",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^12.12.38",
+    "@types/node-fetch": "^2.5.7",
+    "@types/qs": "^6.9.2",
+    "cross-fetch": "^3.0.4",
+    "fetch-mock": "^7.7.3",
+    "fetch-ponyfill": "^6.1.0",
+    "husky": "^4.2.5",
+    "jest": "24.0.0",
+    "jest-fetch-mock": "^2.1.2",
+    "lint-staged": "8.0.0",
+    "moment": "^2.25.3",
+    "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1",
+    "ts-jest": "^24.3.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "qs": "^6.9.4"
+  }
+}
